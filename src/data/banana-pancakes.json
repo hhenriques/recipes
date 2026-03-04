@@ -1,0 +1,29 @@
+{
+  "id": "banana-pancakes",
+  "title": "Fluffy Banana Pancakes",
+  "description": "Light and fluffy pancakes with caramelized banana slices and maple syrup.",
+  "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=800&q=80",
+  "prepTime": "10 min",
+  "cookTime": "15 min",
+  "servings": 2,
+  "tags": ["breakfast", "sweet", "quick"],
+  "ingredients": [
+    { "item": "flour", "amount": "150", "unit": "g" },
+    { "item": "ripe banana", "amount": "2", "unit": "" },
+    { "item": "egg", "amount": "1", "unit": "" },
+    { "item": "milk", "amount": "150", "unit": "ml" },
+    { "item": "baking powder", "amount": "2", "unit": "tsp" },
+    { "item": "sugar", "amount": "1", "unit": "tbsp" },
+    { "item": "butter", "amount": "2", "unit": "tbsp" },
+    { "item": "maple syrup", "amount": "", "unit": "for serving" },
+    { "item": "pinch of salt", "amount": "", "unit": "" }
+  ],
+  "steps": [
+    "Mash one banana in a bowl. Whisk in the egg, milk, and melted butter.",
+    "In another bowl, mix flour, baking powder, sugar, and salt.",
+    "Combine wet and dry ingredients, stirring until just mixed (a few lumps are fine).",
+    "Heat a non-stick pan over medium heat with a small knob of butter.",
+    "Pour about 1/4 cup of batter per pancake. Cook until bubbles form on the surface, then flip. Cook another 1-2 minutes.",
+    "Slice the remaining banana. Serve pancakes topped with banana slices, a pat of butter, and maple syrup."
+  ]
+}

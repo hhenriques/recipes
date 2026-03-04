@@ -1,0 +1,29 @@
+{
+  "id": "greek-salad",
+  "title": "Greek Salad",
+  "description": "Fresh and vibrant salad with ripe tomatoes, cucumbers, olives, and creamy feta.",
+  "image": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&q=80",
+  "prepTime": "15 min",
+  "cookTime": "0 min",
+  "servings": 2,
+  "tags": ["salad", "greek", "vegetarian", "quick"],
+  "ingredients": [
+    { "item": "ripe tomatoes", "amount": "4", "unit": "medium" },
+    { "item": "cucumber", "amount": "1", "unit": "large" },
+    { "item": "red onion", "amount": "1", "unit": "small" },
+    { "item": "kalamata olives", "amount": "100", "unit": "g" },
+    { "item": "feta cheese", "amount": "150", "unit": "g" },
+    { "item": "extra virgin olive oil", "amount": "3", "unit": "tbsp" },
+    { "item": "dried oregano", "amount": "1", "unit": "tsp" },
+    { "item": "red wine vinegar", "amount": "1", "unit": "tbsp" },
+    { "item": "salt and pepper", "amount": "", "unit": "to taste" }
+  ],
+  "steps": [
+    "Cut tomatoes into wedges and cucumber into thick half-moons.",
+    "Thinly slice the red onion into rings.",
+    "Arrange tomatoes, cucumber, and onion on a plate. Scatter olives over the top.",
+    "Place a generous block of feta cheese in the center.",
+    "Drizzle with olive oil and red wine vinegar. Sprinkle with oregano, salt, and pepper.",
+    "Serve immediately — do not toss, let people break the feta as they eat."
+  ]
+}

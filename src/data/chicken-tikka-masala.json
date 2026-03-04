@@ -1,0 +1,33 @@
+{
+  "id": "chicken-tikka-masala",
+  "title": "Chicken Tikka Masala",
+  "description": "Tender chicken pieces in a rich, spiced tomato and cream sauce.",
+  "image": "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=800&q=80",
+  "prepTime": "20 min",
+  "cookTime": "40 min",
+  "servings": 4,
+  "tags": ["indian", "chicken", "curry"],
+  "ingredients": [
+    { "item": "chicken breast", "amount": "600", "unit": "g" },
+    { "item": "yogurt", "amount": "150", "unit": "ml" },
+    { "item": "garam masala", "amount": "2", "unit": "tbsp" },
+    { "item": "turmeric", "amount": "1", "unit": "tsp" },
+    { "item": "cumin", "amount": "1", "unit": "tsp" },
+    { "item": "canned tomatoes", "amount": "400", "unit": "g" },
+    { "item": "heavy cream", "amount": "200", "unit": "ml" },
+    { "item": "onion", "amount": "1", "unit": "large" },
+    { "item": "garlic cloves", "amount": "4", "unit": "" },
+    { "item": "ginger", "amount": "2", "unit": "cm" },
+    { "item": "vegetable oil", "amount": "2", "unit": "tbsp" },
+    { "item": "salt", "amount": "", "unit": "to taste" }
+  ],
+  "steps": [
+    "Cut chicken into bite-sized pieces. Mix yogurt with half the garam masala, turmeric, and cumin. Marinate chicken for at least 30 minutes.",
+    "Thread chicken onto skewers (or place on a baking sheet) and grill or broil until charred, about 10 minutes.",
+    "Dice the onion, mince garlic and ginger. Heat oil in a large pan and cook onion until soft and golden.",
+    "Add garlic, ginger, remaining garam masala, and cook for 1 minute until fragrant.",
+    "Add canned tomatoes and simmer for 15 minutes, stirring occasionally.",
+    "Stir in cream, add the grilled chicken, and simmer for another 10 minutes.",
+    "Season with salt and serve over basmati rice or with naan bread."
+  ]
+}
