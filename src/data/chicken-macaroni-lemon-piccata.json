@@ -1,0 +1,35 @@
+{
+  "id": "chicken-macaroni-lemon-piccata",
+  "title": "Lemon Butter 'Piccata Style' Chicken",
+  "description": "A bright, acidic, and velvety pan sauce made with white wine, fresh lemon juice, and cold butter, tossed with seared chicken thighs and macaroni.",
+  "image": "/recipes/images/placeholder.png",
+  "prepTime": "10 min",
+  "cookTime": "20 min",
+  "servings": 3,
+  "tags": ["chicken", "pasta", "macaroni", "piccata", "lemon-butter", "stovetop", "no-cream"],
+  "ingredients": [
+    { "item": "boneless, skinless chicken thighs", "amount": "4", "unit": "pieces" },
+    { "item": "olive oil", "amount": "15", "unit": "ml" },
+    { "item": "salt and black pepper", "amount": "to taste", "unit": "" },
+    { "item": "dried macaroni", "amount": "225", "unit": "g" },
+    { "item": "shallot (finely minced)", "amount": "1", "unit": "small" },
+    { "item": "garlic (minced)", "amount": "3", "unit": "cloves" },
+    { "item": "dry white wine", "amount": "120", "unit": "ml" },
+    { "item": "fresh lemon juice (about half a lemon)", "amount": "30", "unit": "ml" },
+    { "item": "cold butter (cubed)", "amount": "45", "unit": "g" },
+    { "item": "reserved pasta water", "amount": "60", "unit": "ml" },
+    { "item": "fresh parsley (chopped)", "amount": "1", "unit": "handful" }
+  ],
+  "steps": [
+    "Season the chicken thighs generously with salt and pepper.",
+    "Heat 15 ml of olive oil in a large skillet over medium-high heat. Add the chicken and cook for 5–6 minutes per side until golden brown and cooked through.",
+    "Remove the chicken to a plate to rest. Do not wipe the pan; leave the brown bits (fond) and about a spoonful of the rendered fat in the skillet.",
+    "Meanwhile, boil 225 g of macaroni in salted water, draining it 1 minute early so it remains al dente. Reserve roughly 60 ml of the starchy pasta water before draining.",
+    "Reduce the skillet heat to medium. Add the minced shallot to the chicken fat and sauté for 1 minute until soft. Add the garlic and cook for 30 seconds until fragrant.",
+    "Pour in 120 ml of dry white wine and 30 ml of fresh lemon juice to deglaze the pan. Use a wooden spoon to scrape up all the brown bits from the bottom.",
+    "Let the wine and lemon mixture simmer vigorously until it has reduced by half to concentrate the flavor (about 2–3 minutes).",
+    "Turn the heat completely OFF. Whisk in the 45 g of cold, cubed butter, one piece at a time. The cold butter will emulsify with the liquid to create a velvety, glossy sauce.",
+    "Add the drained macaroni and a splash of the reserved pasta water to the skillet. Toss constantly until the pasta is well coated in the buttery sauce.",
+    "Slice the rested chicken thighs and return them to the pan. Garnish generously with chopped fresh parsley before serving."
+  ]
+}

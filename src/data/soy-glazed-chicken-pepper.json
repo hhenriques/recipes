@@ -1,0 +1,37 @@
+{
+  "id": "soy-glazed-chicken-pepper",
+  "title": "Soy-Glazed Chicken & Pepper",
+  "description": "A savory stovetop fusion dish featuring seared chicken thighs, crisp bell peppers, and sweet onions, all tossed with macaroni in a glossy, umami-rich soy pan sauce.",
+  "image": "/recipes/images/placeholder.png",
+  "prepTime": "10 min",
+  "cookTime": "20 min",
+  "servings": 3,
+  "tags": ["chicken", "pasta", "macaroni", "soy-sauce", "asian-fusion", "stovetop", "stir-fry", "no-vinegar", "easy-prep"],
+  "ingredients": [
+    { "item": "boneless, skinless chicken thighs", "amount": "4", "unit": "pieces" },
+    { "item": "vegetable or cooking oil", "amount": "15", "unit": "ml" },
+    { "item": "dried macaroni", "amount": "225", "unit": "g" },
+    { "item": "onion (sliced into strips)", "amount": "1", "unit": "medium" },
+    { "item": "red bell pepper (sliced into strips)", "amount": "1", "unit": "large" },
+    { "item": "garlic (minced)", "amount": "3", "unit": "cloves" },
+    { "item": "ground ginger (ginger powder)", "amount": "0.5", "unit": "tsp" },
+    { "item": "soy sauce", "amount": "45", "unit": "ml" },
+    { "item": "fresh lime juice (or lemon juice)", "amount": "15", "unit": "ml" },
+    { "item": "brown sugar or honey", "amount": "15", "unit": "g" },
+    { "item": "chicken stock or water", "amount": "60", "unit": "ml" },
+    { "item": "reserved pasta water", "amount": "60", "unit": "ml" },
+    { "item": "green onions/scallions (sliced)", "amount": "2", "unit": "stalks" }
+  ],
+  "steps": [
+    "Heat 15 ml of vegetable oil in a large skillet over medium-high heat. Add the chicken thighs (lightly seasoned with a pinch of pepper, but no salt due to the soy sauce) and cook for 5–6 minutes per side until golden brown and cooked through.",
+    "Remove the chicken to a plate to rest. Leave the brown bits (fond) and rendered fat in the skillet.",
+    "Meanwhile, boil 225 g of macaroni in water, draining it 1 minute early so it remains al dente. Reserve roughly 60 ml of the starchy pasta water before draining.",
+    "Reduce the skillet heat to medium. Add the sliced onion and bell pepper to the chicken fat. Sauté for 3–4 minutes until they begin to soften and pick up the brown bits from the pan.",
+    "Add the minced garlic and the ground ginger to the vegetables. Cook for 30–60 seconds until highly fragrant.",
+    "Pour in the soy sauce, fresh lime juice, brown sugar, and chicken stock to deglaze the pan. Stir well to dissolve the sugar and scrape up any remaining fond.",
+    "Let the sauce simmer vigorously for 2 minutes until it reduces and thickens slightly into a light syrup.",
+    "Add the drained macaroni and a splash of the reserved pasta water to the skillet. Toss constantly for 1–2 minutes until the pasta absorbs the flavors and is coated in the glossy soy glaze.",
+    "Turn off the heat. Slice the rested chicken thighs and return them to the pan.",
+    "Garnish with sliced green onions before serving."
+  ]
+}

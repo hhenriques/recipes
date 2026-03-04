@@ -1,0 +1,39 @@
+{
+  "id": "chicken-garlic-parmesan",
+  "title": "Chicken & Garlic Parmesan",
+  "description": "A luxurious stovetop meal featuring seared chicken thighs and macaroni tossed in a rich, creamy garlic pan sauce finished with Parmigiano Reggiano.",
+  "image": "/recipes/images/placeholder.png",
+  "prepTime": "10 min",
+  "cookTime": "20 min",
+  "servings": 3,
+  "tags": ["chicken", "pasta", "macaroni", "parmesan", "pan-sauce", "stovetop", "comfort-food"],
+  "ingredients": [
+    { "item": "boneless, skinless chicken thighs", "amount": "4", "unit": "pieces" },
+    { "item": "olive oil", "amount": "15", "unit": "ml" },
+    { "item": "salt and black pepper", "amount": "to taste", "unit": "" },
+    { "item": "dried macaroni", "amount": "225", "unit": "g" },
+    { "item": "butter", "amount": "15", "unit": "g" },
+    { "item": "shallot (finely minced)", "amount": "1", "unit": "small" },
+    { "item": "garlic (minced)", "amount": "3", "unit": "cloves" },
+    { "item": "dry white wine (or chicken stock)", "amount": "120", "unit": "ml" },
+    { "item": "chicken stock", "amount": "120", "unit": "ml" },
+    { "item": "Dijon mustard", "amount": "5", "unit": "ml" },
+    { "item": "heavy cream", "amount": "120", "unit": "ml" },
+    { "item": "Parmigiano Reggiano (finely grated)", "amount": "70", "unit": "g" },
+    { "item": "reserved pasta water", "amount": "60", "unit": "ml" },
+    { "item": "fresh parsley (chopped)", "amount": "1", "unit": "handful" }
+  ],
+  "steps": [
+    "Season the chicken thighs generously with salt and pepper.",
+    "Heat 15 ml of olive oil in a large skillet over medium-high heat. Add the chicken and cook for 5–6 minutes per side until golden brown and cooked through.",
+    "Remove the chicken to a plate to rest. Do not wipe the pan; leave the brown bits (fond) and rendered fat in the skillet.",
+    "Meanwhile, boil 225 g of macaroni in salted water, draining it 1 minute early so it remains al dente. Crucially, scoop out and reserve roughly 60–100 ml of the starchy pasta water before draining.",
+    "Reduce the skillet heat to medium. Add 15 g of butter to the chicken fat, then add the minced shallot and sauté for 1 minute until soft. Add the garlic and cook for 30 seconds until fragrant.",
+    "Pour in 120 ml of white wine to deglaze the pan, scraping up all the brown bits from the bottom. Let the liquid reduce by half (about 2 minutes).",
+    "Whisk in 120 ml of chicken stock and 5 ml of Dijon mustard. Simmer for 2 minutes. Do not add extra salt at this stage.",
+    "Pour in 120 ml of heavy cream and bring to a gentle simmer. Add the drained macaroni and roughly 60 ml of the reserved pasta water directly into the sauce.",
+    "Toss everything constantly for 1 minute until the sauce thickens and coats the pasta.",
+    "Turn the heat completely OFF and move the pan off the hot burner. Sprinkle in the 70 g of grated Parmigiano Reggiano in two batches, stirring vigorously after each addition until melted and glossy.",
+    "Slice the rested chicken thighs and return them to the pan. Top with fresh parsley and plenty of black pepper before serving."
+  ]
+}
