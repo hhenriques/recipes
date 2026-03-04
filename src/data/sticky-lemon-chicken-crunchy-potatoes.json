@@ -6,7 +6,7 @@
   "prepTime": "15 min",
   "cookTime": "50 min",
   "servings": 4,
-  "tags": ["chicken", "potatoes", "mushrooms", "sheet-pan", "oven-baked"],
+  "tags": ["chicken", "oven"],
   "ingredients": [
     { "item": "whole chicken legs (thigh + drumstick)", "amount": "4", "unit": "pieces" },
     { "item": "olive oil (for marinade)", "amount": "3", "unit": "tbsp" },

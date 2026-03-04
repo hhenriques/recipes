@@ -15,18 +15,21 @@ export default function RecipeList() {
   const dragState = useRef({ isDown: false, startX: 0, scrollLeft: 0, moved: false });
 
   const onPointerDown = useCallback((e: React.PointerEvent) => {
-    const el = tagsRef.current!;
-    el.setPointerCapture(e.pointerId);
-    dragState.current = { isDown: true, startX: e.clientX, scrollLeft: el.scrollLeft, moved: false };
-    el.style.cursor = "grabbing";
+    dragState.current = { isDown: true, startX: e.clientX, scrollLeft: tagsRef.current!.scrollLeft, moved: false };
   }, []);
 
   const onPointerMove = useCallback((e: React.PointerEvent) => {
     const ds = dragState.current;
     if (!ds.isDown) return;
     const dx = e.clientX - ds.startX;
-    if (Math.abs(dx) > 3) ds.moved = true;
-    tagsRef.current!.scrollLeft = ds.scrollLeft - dx;
+    if (!ds.moved && Math.abs(dx) > 3) {
+      ds.moved = true;
+      tagsRef.current!.setPointerCapture(e.pointerId);
+      tagsRef.current!.style.cursor = "grabbing";
+    }
+    if (ds.moved) {
+      tagsRef.current!.scrollLeft = ds.scrollLeft - dx;
+    }
   }, []);
 
   const onPointerUp = useCallback(() => {

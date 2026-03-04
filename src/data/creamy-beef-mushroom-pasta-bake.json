@@ -6,7 +6,7 @@
   "prepTime": "10 min",
   "cookTime": "35 min",
   "servings": 4,
-  "tags": ["pasta", "beef", "bake", "one-pan", "mushrooms", "quick"],
+  "tags": ["beef", "pasta", "oven"],
   "ingredients": [
     { "item": "minced meat (14% fat)", "amount": "400", "unit": "g" },
     { "item": "mushrooms", "amount": "250", "unit": "g" },

@@ -6,7 +6,7 @@
   "prepTime": "10 min",
   "cookTime": "20 min",
   "servings": 3,
-  "tags": ["chicken", "pasta", "macaroni", "soy-sauce", "asian-fusion", "stovetop", "stir-fry", "no-vinegar", "easy-prep"],
+  "tags": ["chicken", "pasta", "stovetop", "quick"],
   "ingredients": [
     { "item": "boneless, skinless chicken thighs", "amount": "4", "unit": "pieces" },
     { "item": "vegetable or cooking oil", "amount": "15", "unit": "ml" },

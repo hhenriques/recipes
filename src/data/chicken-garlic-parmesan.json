@@ -6,7 +6,7 @@
   "prepTime": "10 min",
   "cookTime": "20 min",
   "servings": 3,
-  "tags": ["chicken", "pasta", "macaroni", "parmesan", "pan-sauce", "stovetop", "comfort-food"],
+  "tags": ["chicken", "pasta", "stovetop", "quick"],
   "ingredients": [
     { "item": "boneless, skinless chicken thighs", "amount": "4", "unit": "pieces" },
     { "item": "olive oil", "amount": "15", "unit": "ml" },
