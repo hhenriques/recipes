@@ -1,0 +1,35 @@
+{
+  "id": "creamy-beef-mushroom-pasta-bake",
+  "title": "Creamy Beef & Mushroom Pasta Bake",
+  "description": "A rich, creamy, one-pan beef and mushroom pasta bake that is ready in under 45 minutes.",
+  "image": "/recipes/images/placeholder.png",
+  "prepTime": "10 min",
+  "cookTime": "35 min",
+  "servings": 4,
+  "tags": ["pasta", "beef", "bake", "one-pan", "mushrooms", "quick"],
+  "ingredients": [
+    { "item": "minced meat (14% fat)", "amount": "400", "unit": "g" },
+    { "item": "mushrooms", "amount": "250", "unit": "g" },
+    { "item": "onion", "amount": "1", "unit": "medium" },
+    { "item": "garlic", "amount": "2", "unit": "cloves" },
+    { "item": "plain flour", "amount": "2", "unit": "tbsp" },
+    { "item": "beef or chicken broth", "amount": "600", "unit": "ml" },
+    { "item": "cream", "amount": "300", "unit": "ml" },
+    { "item": "dried short pasta", "amount": "250", "unit": "g" },
+    { "item": "salt", "amount": "1", "unit": "tsp" },
+    { "item": "black pepper", "amount": "0.5", "unit": "tsp" },
+    { "item": "grated cheese", "amount": "1", "unit": "handful" }
+  ],
+  "steps": [
+    "Preheat your oven to 200°C (or 180°C with a fan setting). Slice the mushrooms and chop the onion.",
+    "Heat an oven-safe skillet over medium-high heat. Add the minced meat, mushrooms, and onion.",
+    "Cook for 7–8 minutes until the meat is browned and the liquid from the mushrooms has completely evaporated.",
+    "Stir in the minced garlic, half of the salt, and all of the black pepper. Cook for 1 minute.",
+    "Sprinkle the flour over the meat mixture, stir well, and let it cook for about 1 minute.",
+    "Slowly pour in the broth and milk, stirring constantly so the flour dissolves into a smooth sauce.",
+    "Add the uncooked pasta and push it down so it is submerged. Taste the liquid and add the remaining salt if needed.",
+    "Cover the skillet tightly with foil or an oven-safe lid and bake for 20 minutes.",
+    "Remove from the oven, take off the cover, give it a quick stir, and top with a handful of grated cheese.",
+    "Bake uncovered for 5 more minutes until the cheese is melted and bubbling. Serve hot."
+  ]
+}
