@@ -27,7 +27,7 @@ export default function RecipeList() {
   return (
     <div className="recipe-list-page">
       <header className="header">
-        <h1>My Recipes</h1>
+        <h1>Henry's Recipes</h1>
         <p className="subtitle">Tap a recipe to see the full details</p>
       </header>
 
