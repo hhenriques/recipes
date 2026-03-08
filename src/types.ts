@@ -9,6 +9,14 @@ export interface Recipe {
   tags: string[];
   ingredients: Ingredient[];
   steps: string[];
+  translations?: {
+    [locale: string]: {
+      title?: string;
+      description?: string;
+      ingredients?: Ingredient[];
+      steps?: string[];
+    };
+  };
 }
 
 export interface Ingredient {

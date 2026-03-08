@@ -40,5 +40,45 @@
     "During the final 5–10 minutes of baking, heat 1 tbsp of butter in a wide frying pan over medium-high heat. Add the mushrooms in a single layer and leave them completely undisturbed for 2 minutes to develop a golden-brown sear. Toss and cook for another 2 minutes, then stir in the minced garlic and chili flakes. Cook for 1 more minute until fragrant, then remove the mushrooms from the pan, leaving the flavored butter behind.",
     "Remove the trays from the oven. Immediately toss the hot, crunchy potatoes in the frying pan with the leftover garlic-chili mushroom butter to coat them in the flavorful fond.",
     "Serve the sticky chicken topped with the buttery, spicy pan-fried mushrooms alongside the flavor-tossed potatoes, with any remaining boiled sauce on the side."
-  ]
+  ],
+  "translations": {
+    "pt": {
+      "title": "Frango Pegajoso de Limão e Mel com Batatas Super Crocantes",
+      "description": "Coxas de frango inteiras crocantes e pegajosas assadas numa grelha, acompanhadas de batatas extra crocantes e cogumelos salteados na manteiga com alho e flocos de malagueta.",
+      "ingredients": [
+        { "item": "pernas de frango inteiras (coxa + perna)", "amount": "4", "unit": "unid." },
+        { "item": "azeite (para a marinada)", "amount": "3", "unit": "c. sopa" },
+        { "item": "sumo de limão", "amount": "3", "unit": "c. sopa" },
+        { "item": "mel", "amount": "1.5", "unit": "c. sopa" },
+        { "item": "molho de soja", "amount": "1.5", "unit": "c. sopa" },
+        { "item": "alho (picado, para a marinada)", "amount": "3", "unit": "dentes" },
+        { "item": "mostarda Dijon", "amount": "1.5", "unit": "c. chá" },
+        { "item": "pimentão-doce fumado", "amount": "1.5", "unit": "c. chá" },
+        { "item": "ervas secas (orégãos ou tomilho)", "amount": "1.5", "unit": "c. chá" },
+        { "item": "sal", "amount": "1", "unit": "c. chá" },
+        { "item": "pimenta preta", "amount": "1", "unit": "c. chá" },
+        { "item": "batatas (descascadas e cortadas em pedaços)", "amount": "800", "unit": "g" },
+        { "item": "azeite (para assar as batatas)", "amount": "3", "unit": "c. sopa" },
+        { "item": "cogumelos (fatiados ou em quartos)", "amount": "250", "unit": "g" },
+        { "item": "manteiga (para fritar os cogumelos)", "amount": "1", "unit": "c. sopa" },
+        { "item": "alho (picado, para os cogumelos)", "amount": "2", "unit": "dentes" },
+        { "item": "flocos de malagueta", "amount": "0.5", "unit": "c. chá" }
+      ],
+      "steps": [
+        "Misture todos os ingredientes da marinada (3 c. sopa de azeite, sumo de limão, mel, molho de soja, 3 dentes de alho, mostarda Dijon, pimentão-doce, ervas, sal e pimenta) numa taça grande ou saco Ziplock.",
+        "Junte as pernas de frango, massaje bem para envolver e deixe marinar à temperatura ambiente durante 30 minutos.",
+        "Entretanto, pré-coza os pedaços de batata em água com sal durante 8–10 minutos até ficarem apenas tenros. Escorra, deixe secar ao vapor durante 1 minuto e agite vigorosamente no escorredor para criar bordas rugosas.",
+        "Envolva as batatas rugosas com 3 c. sopa de azeite e uma pitada generosa de sal.",
+        "Pré-aqueça o forno a 200°C. Forre o tabuleiro com papel de alumínio ou vegetal e coloque a grelha por cima.",
+        "Retire o frango do saco, vertendo a marinada restante para um tacho pequeno. Coloque o frango sobre a grelha.",
+        "Espalhe as batatas uniformemente no tabuleiro de metal escuro.",
+        "Coloque ambos os tabuleiros no forno e asse durante 45–50 minutos.",
+        "Enquanto tudo assa, leve a marinada restante no tacho a ferver intensamente em lume médio. Ferva durante 3–5 minutos, mexendo frequentemente, até ficar bem cozida e engrossar num glacé. Retire do lume.",
+        "Aos 30 minutos, abra o forno e pincele o frango com parte do glacé cozido (ou reserve tudo para servir como molho à parte). Agite as batatas para as virar.",
+        "Durante os últimos 5–10 minutos de cozedura, aqueça 1 c. sopa de manteiga numa frigideira larga em lume médio-alto. Coloque os cogumelos em camada única e deixe-os completamente sem mexer durante 2 minutos para desenvolver uma crosta dourada. Mexa e cozinhe mais 2 minutos, depois adicione o alho picado e os flocos de malagueta. Cozinhe mais 1 minuto até ficarem aromáticos e retire os cogumelos, deixando a manteiga aromatizada na frigideira.",
+        "Retire os tabuleiros do forno. Imediatamente envolva as batatas quentes e crocantes na frigideira com a manteiga de alho e malagueta dos cogumelos para as envolver no fond saboroso.",
+        "Sirva o frango pegajoso coberto com os cogumelos salteados na manteiga e especiarias, acompanhado das batatas envolvidas no fond, com o restante molho cozido à parte."
+      ]
+    }
+  }
 }

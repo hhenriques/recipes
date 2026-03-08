@@ -35,5 +35,40 @@
     "Toss everything constantly for 1 minute until the sauce thickens and coats the pasta.",
     "Turn the heat completely OFF and move the pan off the hot burner. Sprinkle in the 70 g of grated Parmigiano Reggiano in two batches, stirring vigorously after each addition until melted and glossy.",
     "Slice the rested chicken thighs and return them to the pan. Top with fresh parsley and plenty of black pepper before serving."
-  ]
+  ],
+  "translations": {
+    "pt": {
+      "title": "Frango com Alho e Parmesão",
+      "description": "Uma refeição luxuosa feita no fogão com coxas de frango seladas e macarrão envolvidos num molho cremoso de alho, finalizado com Parmigiano Reggiano.",
+      "ingredients": [
+        { "item": "coxas de frango desossadas e sem pele", "amount": "4", "unit": "unid." },
+        { "item": "azeite", "amount": "15", "unit": "ml" },
+        { "item": "sal e pimenta preta", "amount": "a gosto", "unit": "" },
+        { "item": "macarrão seco", "amount": "225", "unit": "g" },
+        { "item": "manteiga", "amount": "15", "unit": "g" },
+        { "item": "chalota (picada finamente)", "amount": "1", "unit": "pequena" },
+        { "item": "alho (picado)", "amount": "3", "unit": "dentes" },
+        { "item": "vinho branco seco (ou caldo de frango)", "amount": "120", "unit": "ml" },
+        { "item": "caldo de frango", "amount": "120", "unit": "ml" },
+        { "item": "mostarda Dijon", "amount": "5", "unit": "ml" },
+        { "item": "natas", "amount": "120", "unit": "ml" },
+        { "item": "Parmigiano Reggiano (finamente ralado)", "amount": "70", "unit": "g" },
+        { "item": "água da cozedura da massa (reservada)", "amount": "60", "unit": "ml" },
+        { "item": "salsa fresca (picada)", "amount": "1", "unit": "punhado" }
+      ],
+      "steps": [
+        "Tempere generosamente as coxas de frango com sal e pimenta.",
+        "Aqueça 15 ml de azeite numa frigideira grande em lume médio-alto. Junte o frango e cozinhe 5–6 minutos de cada lado até ficar dourado e cozido por completo.",
+        "Retire o frango para um prato e deixe repousar. Não limpe a frigideira; mantenha os pedacinhos dourados (fond) e a gordura libertada.",
+        "Entretanto, coza 225 g de macarrão em água com sal, escorrendo-o 1 minuto antes para ficar al dente. É crucial reservar cerca de 60–100 ml da água de cozedura antes de escorrer.",
+        "Reduza o lume da frigideira para médio. Junte 15 g de manteiga à gordura do frango, depois adicione a chalota picada e salteie durante 1 minuto até amolecer. Adicione o alho e cozinhe 30 segundos até ficar aromático.",
+        "Verta 120 ml de vinho branco para desglacear a frigideira, raspando todos os pedacinhos dourados do fundo. Deixe o líquido reduzir para metade (cerca de 2 minutos).",
+        "Incorpore 120 ml de caldo de frango e 5 ml de mostarda Dijon batendo com um fouet. Deixe ferver em lume brando durante 2 minutos. Não adicione sal extra nesta fase.",
+        "Verta 120 ml de natas e deixe ferver suavemente. Adicione o macarrão escorrido e cerca de 60 ml da água da massa reservada diretamente ao molho.",
+        "Mexa tudo constantemente durante 1 minuto até o molho engrossar e envolver a massa.",
+        "Desligue completamente o lume e afaste a frigideira do bico quente. Polvilhe os 70 g de Parmigiano Reggiano ralado em duas levas, mexendo vigorosamente após cada adição até derreter e ficar brilhante.",
+        "Corte as coxas de frango em fatias e volte a colocá-las na frigideira. Finalize com salsa fresca e bastante pimenta preta antes de servir."
+      ]
+    }
+  }
 }

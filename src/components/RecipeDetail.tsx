@@ -1,22 +1,37 @@
 import { useParams, Link } from "react-router-dom";
 import recipes from "../data";
+import { useLanguage } from "../i18n/LanguageContext";
+import LanguageToggle from "./LanguageToggle";
 
 export default function RecipeDetail() {
   const { id } = useParams<{ id: string }>();
-  const recipe = recipes.find((r) => r.id === id);
+  const { t, localizeRecipe } = useLanguage();
 
-  if (!recipe) {
+  const raw = recipes.find((r) => r.id === id);
+
+  if (!raw) {
     return (
       <div className="not-found">
-        <h2>Recipe not found</h2>
-        <Link to="/" className="back-link">&larr; Back to recipes</Link>
+        <h2>{t("recipeNotFound")}</h2>
+        <Link to="/" className="back-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          {t("backToRecipes")}
+        </Link>
       </div>
     );
   }
 
+  const recipe = localizeRecipe(raw);
+
   return (
     <div className="recipe-detail">
-      <Link to="/" className="back-link">&larr; Back</Link>
+      <div className="detail-top-bar">
+        <Link to="/" className="back-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+          {t("back")}
+        </Link>
+        <LanguageToggle />
+      </div>
 
       <div className="detail-hero">
         <img src={recipe.image} alt={recipe.title} />
@@ -28,15 +43,15 @@ export default function RecipeDetail() {
 
         <div className="detail-meta">
           <div className="meta-item">
-            <span className="meta-label">Prep</span>
+            <span className="meta-label">{t("prepLabel")}</span>
             <span className="meta-value">{recipe.prepTime}</span>
           </div>
           <div className="meta-item">
-            <span className="meta-label">Cook</span>
+            <span className="meta-label">{t("cookLabel")}</span>
             <span className="meta-value">{recipe.cookTime}</span>
           </div>
           <div className="meta-item">
-            <span className="meta-label">Servings</span>
+            <span className="meta-label">{t("servingsLabel")}</span>
             <span className="meta-value">{recipe.servings}</span>
           </div>
         </div>
@@ -48,7 +63,7 @@ export default function RecipeDetail() {
         </div>
 
         <section className="detail-section">
-          <h2>Ingredients</h2>
+          <h2>{t("ingredients")}</h2>
           <ul className="ingredients-list">
             {recipe.ingredients.map((ing, i) => (
               <li key={i}>
@@ -62,7 +77,7 @@ export default function RecipeDetail() {
         </section>
 
         <section className="detail-section">
-          <h2>Steps</h2>
+          <h2>{t("steps")}</h2>
           <ol className="steps-list">
             {recipe.steps.map((step, i) => (
               <li key={i}>

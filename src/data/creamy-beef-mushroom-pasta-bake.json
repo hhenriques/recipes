@@ -31,5 +31,36 @@
     "Cover the skillet tightly with foil or an oven-safe lid and bake for 20 minutes.",
     "Remove from the oven, take off the cover, give it a quick stir, and top with a handful of grated cheese.",
     "Bake uncovered for 5 more minutes until the cheese is melted and bubbling. Serve hot."
-  ]
+  ],
+  "translations": {
+    "pt": {
+      "title": "Massa Gratinada de Carne e Cogumelos",
+      "description": "Uma massa cremosa de carne e cogumelos, feita numa só frigideira, pronta em menos de 45 minutos.",
+      "ingredients": [
+        { "item": "carne picada (14% gordura)", "amount": "400", "unit": "g" },
+        { "item": "cogumelos", "amount": "250", "unit": "g" },
+        { "item": "cebola", "amount": "1", "unit": "média" },
+        { "item": "alho", "amount": "2", "unit": "dentes" },
+        { "item": "farinha de trigo", "amount": "2", "unit": "c. sopa" },
+        { "item": "caldo de carne ou frango", "amount": "600", "unit": "ml" },
+        { "item": "natas", "amount": "300", "unit": "ml" },
+        { "item": "massa curta seca", "amount": "250", "unit": "g" },
+        { "item": "sal", "amount": "1", "unit": "c. chá" },
+        { "item": "pimenta preta", "amount": "0.5", "unit": "c. chá" },
+        { "item": "queijo ralado", "amount": "1", "unit": "punhado" }
+      ],
+      "steps": [
+        "Pré-aqueça o forno a 200°C (ou 180°C com ventilação). Corte os cogumelos em fatias e pique a cebola.",
+        "Aqueça uma frigideira própria para forno em lume médio-alto. Junte a carne picada, os cogumelos e a cebola.",
+        "Cozinhe durante 7–8 minutos até a carne ficar dourada e o líquido dos cogumelos ter evaporado completamente.",
+        "Junte o alho picado, metade do sal e toda a pimenta preta. Cozinhe durante 1 minuto.",
+        "Polvilhe a farinha sobre a mistura de carne, mexa bem e deixe cozinhar durante cerca de 1 minuto.",
+        "Verta lentamente o caldo e o leite, mexendo constantemente para que a farinha se dissolva num molho homogéneo.",
+        "Adicione a massa crua e empurre-a para baixo de modo a ficar submersa. Prove o líquido e adicione o restante sal se necessário.",
+        "Tape a frigideira com papel de alumínio ou uma tampa própria para forno e leve ao forno durante 20 minutos.",
+        "Retire do forno, destape, mexa rapidamente e cubra com um punhado de queijo ralado.",
+        "Leve ao forno destapado mais 5 minutos até o queijo derreter e borbulhar. Sirva quente."
+      ]
+    }
+  }
 }

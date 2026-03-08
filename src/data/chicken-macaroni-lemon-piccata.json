@@ -31,5 +31,36 @@
     "Turn the heat completely OFF. Whisk in the 45 g of cold, cubed butter, one piece at a time. The cold butter will emulsify with the liquid to create a velvety, glossy sauce.",
     "Add the drained macaroni and a splash of the reserved pasta water to the skillet. Toss constantly until the pasta is well coated in the buttery sauce.",
     "Slice the rested chicken thighs and return them to the pan. Garnish generously with chopped fresh parsley before serving."
-  ]
+  ],
+  "translations": {
+    "pt": {
+      "title": "Frango 'Estilo Piccata' com Manteiga e Limão",
+      "description": "Um molho aveludado e ácido feito com vinho branco, sumo de limão fresco e manteiga fria, envolvido com coxas de frango seladas e macarrão.",
+      "ingredients": [
+        { "item": "coxas de frango desossadas e sem pele", "amount": "4", "unit": "unid." },
+        { "item": "azeite", "amount": "15", "unit": "ml" },
+        { "item": "sal e pimenta preta", "amount": "a gosto", "unit": "" },
+        { "item": "macarrão seco", "amount": "225", "unit": "g" },
+        { "item": "chalota (picada finamente)", "amount": "1", "unit": "pequena" },
+        { "item": "alho (picado)", "amount": "3", "unit": "dentes" },
+        { "item": "vinho branco seco", "amount": "120", "unit": "ml" },
+        { "item": "sumo de limão fresco (cerca de meio limão)", "amount": "30", "unit": "ml" },
+        { "item": "manteiga fria (em cubos)", "amount": "45", "unit": "g" },
+        { "item": "água da cozedura da massa (reservada)", "amount": "60", "unit": "ml" },
+        { "item": "salsa fresca (picada)", "amount": "1", "unit": "punhado" }
+      ],
+      "steps": [
+        "Tempere generosamente as coxas de frango com sal e pimenta.",
+        "Aqueça 15 ml de azeite numa frigideira grande em lume médio-alto. Junte o frango e cozinhe 5–6 minutos de cada lado até ficar dourado e cozido por completo.",
+        "Retire o frango para um prato e deixe repousar. Não limpe a frigideira; mantenha os pedacinhos dourados (fond) e cerca de uma colher da gordura libertada.",
+        "Entretanto, coza 225 g de macarrão em água com sal, escorrendo-o 1 minuto antes para ficar al dente. Reserve cerca de 60 ml da água de cozedura antes de escorrer.",
+        "Reduza o lume da frigideira para médio. Junte a chalota picada à gordura do frango e salteie durante 1 minuto até amolecer. Adicione o alho e cozinhe 30 segundos até ficar aromático.",
+        "Verta 120 ml de vinho branco seco e 30 ml de sumo de limão fresco para desglacear a frigideira. Use uma colher de pau para raspar todos os pedacinhos dourados do fundo.",
+        "Deixe a mistura de vinho e limão ferver vigorosamente até reduzir para metade e concentrar o sabor (cerca de 2–3 minutos).",
+        "Desligue completamente o lume. Incorpore os 45 g de manteiga fria em cubos, um pedaço de cada vez, batendo com um fouet. A manteiga fria vai emulsionar com o líquido criando um molho aveludado e brilhante.",
+        "Adicione o macarrão escorrido e um pouco da água da massa reservada à frigideira. Mexa constantemente até a massa ficar bem envolvida no molho amanteigado.",
+        "Corte as coxas de frango em fatias e volte a colocá-las na frigideira. Decore generosamente com salsa fresca picada antes de servir."
+      ]
+    }
+  }
 }

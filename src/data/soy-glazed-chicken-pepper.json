@@ -33,5 +33,38 @@
     "Add the drained macaroni and a splash of the reserved pasta water to the skillet. Toss constantly for 1–2 minutes until the pasta absorbs the flavors and is coated in the glossy soy glaze.",
     "Turn off the heat. Slice the rested chicken thighs and return them to the pan.",
     "Garnish with sliced green onions before serving."
-  ]
+  ],
+  "translations": {
+    "pt": {
+      "title": "Frango Glaceado com Soja e Pimento",
+      "description": "Um prato de fusão feito no fogão com coxas de frango seladas, pimentos crocantes e cebola doce, tudo envolvido com macarrão num molho brilhante e rico em umami.",
+      "ingredients": [
+        { "item": "coxas de frango desossadas e sem pele", "amount": "4", "unit": "unid." },
+        { "item": "óleo vegetal ou de cozinha", "amount": "15", "unit": "ml" },
+        { "item": "macarrão seco", "amount": "225", "unit": "g" },
+        { "item": "cebola (cortada em tiras)", "amount": "1", "unit": "média" },
+        { "item": "pimento vermelho (cortado em tiras)", "amount": "1", "unit": "grande" },
+        { "item": "alho (picado)", "amount": "3", "unit": "dentes" },
+        { "item": "gengibre em pó", "amount": "0.5", "unit": "c. chá" },
+        { "item": "molho de soja", "amount": "45", "unit": "ml" },
+        { "item": "sumo de lima (ou limão)", "amount": "15", "unit": "ml" },
+        { "item": "açúcar mascavado ou mel", "amount": "15", "unit": "g" },
+        { "item": "caldo de frango ou água", "amount": "60", "unit": "ml" },
+        { "item": "água da cozedura da massa (reservada)", "amount": "60", "unit": "ml" },
+        { "item": "cebolinho (fatiado)", "amount": "2", "unit": "talos" }
+      ],
+      "steps": [
+        "Aqueça 15 ml de óleo vegetal numa frigideira grande em lume médio-alto. Junte as coxas de frango (temperadas levemente com uma pitada de pimenta, mas sem sal devido ao molho de soja) e cozinhe 5–6 minutos de cada lado até ficarem douradas e cozidas por completo.",
+        "Retire o frango para um prato e deixe repousar. Mantenha os pedacinhos dourados (fond) e a gordura libertada na frigideira.",
+        "Entretanto, coza 225 g de macarrão em água, escorrendo-o 1 minuto antes para ficar al dente. Reserve cerca de 60 ml da água de cozedura antes de escorrer.",
+        "Reduza o lume da frigideira para médio. Junte a cebola e o pimento cortados à gordura do frango. Salteie durante 3–4 minutos até começarem a amolecer e absorverem os pedacinhos dourados da frigideira.",
+        "Adicione o alho picado e o gengibre em pó aos legumes. Cozinhe 30–60 segundos até ficarem muito aromáticos.",
+        "Verta o molho de soja, o sumo de lima, o açúcar mascavado e o caldo de frango para desglacear a frigideira. Mexa bem para dissolver o açúcar e raspar o fond restante.",
+        "Deixe o molho ferver vigorosamente durante 2 minutos até reduzir e engrossar ligeiramente num xarope leve.",
+        "Adicione o macarrão escorrido e um pouco da água da massa reservada à frigideira. Mexa constantemente durante 1–2 minutos até a massa absorver os sabores e ficar envolvida no glacé brilhante de soja.",
+        "Desligue o lume. Corte as coxas de frango em fatias e volte a colocá-las na frigideira.",
+        "Decore com cebolinho fatiado antes de servir."
+      ]
+    }
+  }
 }

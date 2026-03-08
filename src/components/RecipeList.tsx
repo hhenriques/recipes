@@ -1,10 +1,18 @@
 import { useState, useMemo, useRef, useCallback } from "react";
 import { Link } from "react-router-dom";
 import recipes from "../data";
+import { useLanguage } from "../i18n/LanguageContext";
+import LanguageToggle from "./LanguageToggle";
 
 export default function RecipeList() {
   const [search, setSearch] = useState("");
   const [activeTag, setActiveTag] = useState<string | null>(null);
+  const { t, translateTag, localizeRecipe } = useLanguage();
+
+  const localizedRecipes = useMemo(
+    () => recipes.map(localizeRecipe),
+    [localizeRecipe]
+  );
 
   const allTags = useMemo(
     () => [...new Set(recipes.flatMap((r) => r.tags))].sort(),
@@ -39,22 +47,25 @@ export default function RecipeList() {
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase();
-    return recipes.filter((r) => {
+    return localizedRecipes.filter((r) => {
       const matchesSearch =
         !q ||
         r.title.toLowerCase().includes(q) ||
         r.description.toLowerCase().includes(q) ||
-        r.tags.some((t) => t.includes(q));
+        r.tags.some((tag) => tag.includes(q) || translateTag(tag).toLowerCase().includes(q));
       const matchesTag = !activeTag || r.tags.includes(activeTag);
       return matchesSearch && matchesTag;
     });
-  }, [search, activeTag]);
+  }, [search, activeTag, localizedRecipes, translateTag]);
 
   return (
     <div className="recipe-list-page">
       <header className="header">
-        <h1>Henry's Recipes</h1>
-        <p className="subtitle">Tap a recipe to see the full details</p>
+        <div className="header-row">
+          <h1>{t("siteTitle")}</h1>
+          <LanguageToggle />
+        </div>
+        <p className="subtitle">{t("subtitle")}</p>
       </header>
 
       <div className="search-bar">
@@ -64,12 +75,12 @@ export default function RecipeList() {
         </svg>
         <input
           type="text"
-          placeholder="Search recipes..."
+          placeholder={t("searchPlaceholder")}
           value={search}
           onChange={(e) => setSearch(e.target.value)}
         />
         {search && (
-          <button className="clear-btn" onClick={() => setSearch("")} aria-label="Clear search">
+          <button className="clear-btn" onClick={() => setSearch("")} aria-label={t("clearSearch")}>
             &times;
           </button>
         )}
@@ -87,7 +98,7 @@ export default function RecipeList() {
           className={`tag ${activeTag === null ? "active" : ""}`}
           onClick={() => { if (!dragState.current.moved) setActiveTag(null); }}
         >
-          All
+          {t("tagAll")}
         </button>
         {allTags.map((tag) => (
           <button
@@ -95,13 +106,13 @@ export default function RecipeList() {
             className={`tag ${activeTag === tag ? "active" : ""}`}
             onClick={() => { if (!dragState.current.moved) setActiveTag(activeTag === tag ? null : tag); }}
           >
-            {tag}
+            {translateTag(tag)}
           </button>
         ))}
       </div>
 
       {filtered.length === 0 ? (
-        <p className="empty">No recipes found. Try a different search.</p>
+        <p className="empty">{t("noResults")}</p>
       ) : (
         <div className="recipe-grid">
           {filtered.map((recipe) => (
@@ -117,11 +128,11 @@ export default function RecipeList() {
                 <h2>{recipe.title}</h2>
                 <p className="card-desc">{recipe.description}</p>
                 <div className="card-meta">
-                  <span>{recipe.prepTime} prep</span>
+                  <span>{recipe.prepTime} {t("prep")}</span>
                   <span className="dot">&middot;</span>
-                  <span>{recipe.cookTime} cook</span>
+                  <span>{recipe.cookTime} {t("cook")}</span>
                   <span className="dot">&middot;</span>
-                  <span>{recipe.servings} servings</span>
+                  <span>{recipe.servings} {t("servings")}</span>
                 </div>
               </div>
             </Link>
