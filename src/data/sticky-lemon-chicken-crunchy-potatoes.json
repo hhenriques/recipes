@@ -1,7 +1,7 @@
 {
   "id": "sticky-lemon-chicken-crunchy-potatoes",
   "title": "Sticky Lemon-Honey Chicken & Super Crunch Potatoes",
-  "description": "Crispy, sticky chicken leg quarters roasted on a wire rack, paired with extra crunchy potatoes and buttery pan-fried mushrooms.",
+  "description": "Crispy, sticky chicken leg quarters roasted on a wire rack, paired with extra crunchy potatoes and buttery pan-fried mushrooms tossed with garlic and chili flakes.",
   "image": "/recipes/images/sticky_chicken.jpg",
   "prepTime": "15 min",
   "cookTime": "50 min",
@@ -13,7 +13,7 @@
     { "item": "lemon juice", "amount": "3", "unit": "tbsp" },
     { "item": "honey", "amount": "1.5", "unit": "tbsp" },
     { "item": "soy sauce", "amount": "1.5", "unit": "tbsp" },
-    { "item": "garlic (minced)", "amount": "3", "unit": "cloves" },
+    { "item": "garlic (minced, for marinade)", "amount": "3", "unit": "cloves" },
     { "item": "Dijon mustard", "amount": "1.5", "unit": "tsp" },
     { "item": "smoked paprika", "amount": "1.5", "unit": "tsp" },
     { "item": "dried herbs (oregano or thyme)", "amount": "1.5", "unit": "tsp" },
@@ -21,22 +21,24 @@
     { "item": "black pepper", "amount": "1", "unit": "tsp" },
     { "item": "potatoes (peeled and cut into chunks)", "amount": "800", "unit": "g" },
     { "item": "olive oil (for roasting potatoes)", "amount": "3", "unit": "tbsp" },
-    { "item": "butter (for finishing potatoes)", "amount": "1", "unit": "tbsp" },
     { "item": "button mushrooms (sliced or quartered)", "amount": "250", "unit": "g" },
-    { "item": "butter (for frying mushrooms)", "amount": "1", "unit": "tbsp" }
+    { "item": "butter (for frying mushrooms)", "amount": "1", "unit": "tbsp" },
+    { "item": "garlic (minced, for mushrooms)", "amount": "2", "unit": "cloves" },
+    { "item": "chili flakes", "amount": "0.5", "unit": "tsp" }
   ],
   "steps": [
-    "Mix all the marinade ingredients (3 tbsp olive oil, lemon juice, honey, soy sauce, garlic, Dijon, paprika, herbs, salt, and pepper) in a large bowl or Ziplock bag.",
+    "Mix all the marinade ingredients (3 tbsp olive oil, lemon juice, honey, soy sauce, 3 cloves garlic, Dijon, paprika, herbs, salt, and pepper) in a large bowl or Ziplock bag.",
     "Add the chicken legs, massage well to coat, and let them marinate at room temperature for 30 minutes.",
     "Meanwhile, par-boil the potato chunks in salted water for 8–10 minutes until just knife-tender. Drain, let steam dry for 1 minute, and shake vigorously in the colander to rough up the edges.",
     "Toss the roughed-up potatoes with 3 tbsp of olive oil and a generous pinch of salt.",
     "Preheat your oven to 200°C. Line your baking pan with foil or parchment and place the wire rack on top.",
-    "Remove the chicken from the bag, saving the leftover marinade in a small bowl. Place the chicken on the wire rack.",
+    "Remove the chicken from the bag, pouring the leftover marinade into a small saucepan. Place the chicken on the wire rack.",
     "Spread the potatoes evenly on the dark metal tray.",
     "Place both the chicken tray and the potato tray into the oven and roast for 45–50 minutes.",
-    "At the 30-minute mark, open the oven to brush the chicken with the saved marinade and give the potatoes a shake to flip them.",
-    "During the final 5–10 minutes of baking, heat 1 tbsp of butter in a frying pan over medium-high heat and sauté the sliced mushrooms until golden brown.",
-    "Remove the trays from the oven. Toss the hot, crunchy potatoes with 1 tbsp of butter.",
-    "Serve the sticky chicken topped with the buttery pan-fried mushrooms alongside the potatoes."
+    "While the food roasts, bring the leftover marinade in the saucepan to a rolling boil over medium heat. Boil for 3–5 minutes, stirring frequently, until safely cooked and thickened into a glaze. Remove from heat.",
+    "At the 30-minute mark, open the oven to brush the chicken with some of the boiled glaze (or reserve it all to serve as a dipping sauce on the side). Give the potatoes a shake to flip them.",
+    "During the final 5–10 minutes of baking, heat 1 tbsp of butter in a wide frying pan over medium-high heat. Add the mushrooms in a single layer and leave them completely undisturbed for 2 minutes to develop a golden-brown sear. Toss and cook for another 2 minutes, then stir in the minced garlic and chili flakes. Cook for 1 more minute until fragrant, then remove the mushrooms from the pan, leaving the flavored butter behind.",
+    "Remove the trays from the oven. Immediately toss the hot, crunchy potatoes in the frying pan with the leftover garlic-chili mushroom butter to coat them in the flavorful fond.",
+    "Serve the sticky chicken topped with the buttery, spicy pan-fried mushrooms alongside the flavor-tossed potatoes, with any remaining boiled sauce on the side."
   ]
 }
